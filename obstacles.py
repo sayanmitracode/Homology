@@ -200,7 +200,7 @@ Tent.add_boundary_matrix(3, np.array([
 print(f'Solid Triangle: {triangle.get_betti_numbers()}')
 # Expected: [1,0,0]
 print(f'Empty Triangle: {etriangle.get_betti_numbers()}')
-# Expected: [1,0,1]
+# Expected: [1,1,0]
 print(f'Quad: {quad.get_betti_numbers()}')
 # Expected: [1,0,1,0]
 # Gives: [1,0,-1,1]
